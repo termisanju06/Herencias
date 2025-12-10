@@ -1,11 +1,13 @@
 package org.example;
 
-public class Pig {
-    class pig extends Animales{
-        public pig(int age) {
-            super(age);
-        }
-        private String[] alimentacion;
+public class Pig extends Animales{
+
+    public Pig(int age, String[] alimentacion) {
+        super(age);
+        this.alimentacion = alimentacion;
+    }
+
+    private String[] alimentacion;
 
         public String[] getAlimentacion() {
             return alimentacion;
@@ -23,5 +25,5 @@ public class Pig {
                 System.out.println(alimentacion[i]);
             }
         }
-    }
+
 }

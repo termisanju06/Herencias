@@ -1,11 +1,12 @@
 package org.example;
 
-public class Cat {
-    class cat extends Animales{
-        public cat(int age) {
-            super(age);
-        }
-        private String color;
+public class Cat extends Animales{
+    public Cat(int age, String color) {
+        super(age);
+        this.color = color;
+    }
+
+    private String color;
 
         public String getColor() {
             return color;
@@ -20,5 +21,5 @@ public class Cat {
         public void showInfo(){
             System.out.println("Edad: " + age + " color: " + color);
         }
-    }
+
 }
