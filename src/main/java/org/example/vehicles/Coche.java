@@ -1,13 +1,11 @@
 package org.example.vehicles;
 
-import org.example.animals.Animales;
-
-public class Coche extends Animales {
+public class Coche extends Vehiculos {
     private int numeropuertas;
     private int caballos;
 
-    public Coche(int age, int numeropuertas, int caballos) {
-        super(age);
+    public Coche(int kilometros, String matricula, int numeropuertas, int caballos) {
+        super(kilometros, matricula);
         this.numeropuertas = numeropuertas;
         this.caballos = caballos;
     }
@@ -26,5 +24,9 @@ public class Coche extends Animales {
 
     public void setCaballos(int caballos) {
         this.caballos = caballos;
+    }
+    public void showInfo(){
+        System.out.print("Numero de puertas: " + numeropuertas + " caballos: " + caballos);
+        System.out.println("Matricula: " + matricula + " Kilometros: " + kilometros);
     }
 }

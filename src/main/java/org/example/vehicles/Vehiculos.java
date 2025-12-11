@@ -24,4 +24,10 @@ public abstract class Vehiculos {
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
+    public void move(){
+        System.out.println("Recorridos " + kilometros + " km");
+    }
+    public void showInfoVehiculos(){
+
+    }
 }
