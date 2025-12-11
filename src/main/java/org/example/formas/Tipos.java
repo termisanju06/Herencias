@@ -14,4 +14,9 @@ public abstract class Tipos {
     public void setColor(String color) {
         this.color = color;
     }
+    protected double areaCuadrado(double lado, double area){
+        area = lado * lado;
+        return area;
+    }
+
 }
