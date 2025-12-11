@@ -16,6 +16,7 @@ public class Moto extends Vehiculos {
         this.cilindrada = cilindrada;
     }
     public void showInfo(){
-        System.out.println("Cilindrada: " + cilindrada + " kilometros: " + kilometros + " matricula: " + matricula);
+        System.out.println("Cilindrada: " + cilindrada);
+        move();
     }
 }

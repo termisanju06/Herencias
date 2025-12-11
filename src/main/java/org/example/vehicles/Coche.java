@@ -27,6 +27,6 @@ public class Coche extends Vehiculos {
     }
     public void showInfo(){
         System.out.print("Numero de puertas: " + numeropuertas + " caballos: " + caballos);
-        System.out.println("Matricula: " + matricula + " Kilometros: " + kilometros);
+        move();
     }
 }

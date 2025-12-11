@@ -16,6 +16,7 @@ public class Camion extends Vehiculos{
         this.numeroejes = numeroejes;
     }
     public void showInfo(){
-        System.out.println("Numero de ejes: " + numeroejes + " matricula: " + matricula + " Kilometros: " + kilometros);
+        System.out.println("Numero de ejes: " + numeroejes);
+        move();
     }
 }
