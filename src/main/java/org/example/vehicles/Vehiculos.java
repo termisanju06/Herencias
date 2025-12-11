@@ -25,6 +25,6 @@ public abstract class Vehiculos {
         this.matricula = matricula;
     }
     protected void move(){
-        System.out.println("Recorridos " + kilometros + " km");
+        System.out.println("Recorridos " + kilometros + " km" + " Matrícula: " + matricula);
     }
 }
