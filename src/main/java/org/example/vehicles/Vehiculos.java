@@ -27,7 +27,4 @@ public abstract class Vehiculos {
     public void move(){
         System.out.println("Recorridos " + kilometros + " km");
     }
-    public void showInfoVehiculos(){
-
-    }
 }
