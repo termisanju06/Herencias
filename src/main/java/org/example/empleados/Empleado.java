@@ -13,6 +13,20 @@ public abstract class Empleado {
         this.horasTrabajadas = horasTrabajadas;
     }
 
+    public void showInfo(){
+        System.out.println("NIF: " + nif + " Nombre: " + nombre + " Apellido: " + apellido);
+        System.out.println("HOras Trabajadas: " + horasTrabajadas);
+    }
+
+    public void horasImputadas(int horas){
+        horasTrabajadas += horas;
+    }
+
+//    public int horasImputadas(int horas){ //Ambas formas estarían bien
+//        horasTrabajadas += horas;
+//        return horasTrabajadas;
+//    }
+
     public String getNif() {
         return nif;
     }
