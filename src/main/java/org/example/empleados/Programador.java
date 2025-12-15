@@ -10,6 +10,18 @@ public class Programador extends Empleado{
         this.proyecto = proyecto;
     }
 
+    public boolean lenguajeProgramacion(String lenguaje){
+        if (lenguajeProgramacion.equals(lenguaje)){
+            System.out.println("Lo conoce");
+            return true;
+        }
+        else {
+            System.out.println("No lo conoce");
+            return false;
+        }
+
+    }
+
     public String getLenguajeProgramacion() {
         return lenguajeProgramacion;
     }

@@ -8,6 +8,15 @@ public class JefeProyecto extends Empleado{
         this.proyectos = proyectos;
     }
 
+    public boolean lodirige(String proyecto){
+        for (int i = 0; i < proyecto.length(); i++) {
+            if (proyectos[i].equals(proyecto)){
+                return true;
+            }
+        }
+        return false;
+    }
+
     public String[] getProyectos() {
         return proyectos;
     }
