@@ -8,6 +8,16 @@ public class DeFamilia extends Medicos{
         this.centrodeSalud = centrodeSalud;
     }
 
+    @Override
+    public boolean trabajaHospitalSiNo(String hospital) {
+        return super.trabajaHospitalSiNo(hospital);
+    }
+
+    public void showInfoDeFamilia(){
+        showInfoMedico();
+        System.out.println(" Centro De Salud: " + centrodeSalud);
+    }
+
     public String getCentrodeSalud() {
         return centrodeSalud;
     }

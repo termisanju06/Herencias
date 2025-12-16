@@ -10,6 +10,16 @@ public class Cirujano extends Medicos{
         this.numeroVox = numeroVox;
     }
 
+    @Override
+    public boolean trabajaHospitalSiNo(String hospital) {
+        return super.trabajaHospitalSiNo(hospital);
+    }
+
+    public void showInfoCirujano(){
+        showInfoMedico();
+        System.out.println(" Hospital: " + hospital + " Nº Box: " + numeroVox);
+    }
+
     public String getHospital() {
         return hospital;
     }

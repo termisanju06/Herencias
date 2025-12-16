@@ -8,6 +8,11 @@ public class Cuadrado extends Tipos{
         this.lado = lado;
     }
 
+    @Override
+    protected double areaCuadrado(double lado, double area) {
+        return super.areaCuadrado(lado, area);
+    }
+
     public double getLado() {
         return lado;
     }

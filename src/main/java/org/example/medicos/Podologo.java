@@ -10,6 +10,16 @@ public class Podologo extends Medicos{
         this.planta = planta;
     }
 
+    @Override
+    public boolean trabajaHospitalSiNo(String hospital) {
+        return super.trabajaHospitalSiNo(hospital);
+    }
+
+    public void showInfoPodologo(){
+        showInfoMedico();
+        System.out.println(" Hospital: " + hospital + " planta: " + planta);
+    }
+
     public String getHospital() {
         return hospital;
     }

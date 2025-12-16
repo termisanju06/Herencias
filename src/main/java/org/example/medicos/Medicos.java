@@ -24,6 +24,15 @@ public abstract class Medicos {
         }
     }
 
+    public boolean trabajaHospitalSiNo(String hospital){
+        if (hospital != null){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
     public String getNombre() {
         return nombre;
     }
