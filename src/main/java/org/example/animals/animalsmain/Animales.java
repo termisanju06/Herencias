@@ -1,4 +1,4 @@
-package org.example.animals;
+package org.example.animals.animalsmain;
 
 public abstract class Animales {
     protected int age;

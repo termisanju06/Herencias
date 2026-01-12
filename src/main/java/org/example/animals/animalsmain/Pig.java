@@ -1,4 +1,4 @@
-package org.example.animals;
+package org.example.animals.animalsmain;
 
 public class Pig extends Animales{
 
@@ -19,6 +19,7 @@ public class Pig extends Animales{
         public void talk(){
             System.out.println("Gema gemita");
         }
+
         public void showInfo(){
             System.out.println("Edad. " + age);
             for (int i = 0; i < alimentacion.length; i++) {
