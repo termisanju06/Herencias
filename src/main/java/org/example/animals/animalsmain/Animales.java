@@ -15,5 +15,3 @@ public abstract class Animales {
         this.age = age;
     }
 }
-
-
