@@ -21,7 +21,7 @@ public class Dog extends Animales{
             System.out.println("Javi, Javi");
         }
         public void showInfo(){
-            System.out.println("Edad: " + age + " raza. " + raza);
+            System.out.println("Edad: " + age + " raza: " + raza);
         }
 
 
