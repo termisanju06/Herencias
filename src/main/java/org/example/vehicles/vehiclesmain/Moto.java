@@ -1,4 +1,4 @@
-package org.example.vehicles;
+package org.example.vehicles.vehiclesmain;
 
 public class Moto extends Vehiculos {
     private int cilindrada;

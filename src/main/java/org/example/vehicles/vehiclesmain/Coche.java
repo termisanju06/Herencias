@@ -1,4 +1,4 @@
-package org.example.vehicles;
+package org.example.vehicles.vehiclesmain;
 
 public class Coche extends Vehiculos {
     private int numeropuertas;
